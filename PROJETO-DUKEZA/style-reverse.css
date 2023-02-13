@@ -1,0 +1,277 @@
+.white-section {
+    background-color: #fff;
+}
+
+.colored-section {}
+
+.header-footer {
+    background-color: var(--color-1);
+    color: #fff;
+}
+
+/* END COLOR SECTION */
+
+
+/* ======HEADER====== */
+
+#header {
+    padding: 3% 15%;
+    text-shadow: -2px 3px 10px var(--text-shadow1);
+}
+
+#header #header-logo {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* END HEADER */
+
+
+/* ======NAVBAR  ====== */
+#nav {
+    padding-bottom: 10rem;
+}
+
+.nav-item {
+    margin-right: 2rem;
+
+}
+
+.navbar-nav {
+    font-size: 1.2rem;
+
+}
+
+/* END NAVBAR  */
+
+
+/* ======CONTENT HEADER====== */
+
+.header-img {
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    top: 25%;
+    right: 22%;
+
+}
+
+#header h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+}
+
+#header button {
+    text-shadow: -2px 3px 10px var(--text-shadow);
+}
+
+#header .navigation:hover {
+    color: var(--color-2);
+}
+
+/* END CONTENT HEADER */
+
+/* ====FEATURES===== */
+
+#features {
+    padding: 3% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#features h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-4)
+}
+
+#features p {
+    color: var(--color-4);
+}
+
+.row-padding {
+    padding: 10% 10%;
+}
+
+.features-box {
+    padding: 5%;
+}
+
+.icon {
+    color: var(--color-4);
+    margin-bottom: 1.2rem;
+}
+
+.icon:hover {
+    color: var(--color-3);
+}
+
+/* END FEATURES */
+
+
+/* ============= coments ============ */
+#coments {
+    padding: 3% 15%;
+    background-color: var(--color-5);
+}
+
+#coments .img-coments {
+    width: 15%;
+    border-radius: 100%;
+    margin-bottom: 3rem;
+}
+
+#coments h1 {
+    font-size: 2em;
+}
+
+#coments #carousel-coments {
+    padding: 10% 10%;
+}
+
+/* END COMMENTS */
+
+/* ====== price ======= */
+
+#price {
+    padding: 3% 15%;
+    color: var(--color-4);
+}
+
+.pricing-column {
+    padding: 10% 2%;
+}
+
+.card-header h3 {
+    font-weight: bold;
+}
+
+/* END PRICE  */
+
+/* =========footer========= */
+#footer {
+    padding: 2% 7%;
+    background-color: var(--color-1);
+
+    color: #ffff;
+}
+
+.container-footer {
+    padding: 2%;
+}
+
+.footer-links {
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.social-links:hover {
+    transition: 0.4s;
+    color: var(--color-5);
+}
+
+/* END FOOTER */
+@media(max-width: 1280px) {
+    #header figure {
+        text-align: center;
+    }
+
+    .header-img {
+        width: 60%;
+        transform: rotate(0);
+        position: static;
+        top: 0;
+        right: 0;
+    }
+}
+
+@media(max-width: 1024px) {
+    #header h1 {
+        font-size: 2.3rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+
+    #features h1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: var(--color-4)
+    }
+
+    #coments .img-coments {
+        width: 25%;
+    }
+
+}
+
+@media(max-width: 991px) {
+    #header {
+        text-align: center;
+    }
+
+    .header-img {
+        width: 35%;
+        margin-top: 5rem;
+    }
+
+    #coments .img-coments {
+        width: 30%;
+    }
+
+}
+
+@media(max-width: 652px) {
+    #header nav button {
+        margin: 1.4rem auto 0;
+    }
+
+    #nav {
+        padding-bottom: 5%;
+    }
+
+    #header h1 {
+        font-size: 2.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .header-img {
+        width: 50%;
+        margin-top: 3rem;
+    }
+
+    #coments strong {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 414px) {
+    #header #header-logo {
+        font-size: 3rem;
+    }
+
+    #coments .carousel-control-next {
+        right: -40px;
+    }
+
+    #coments .carousel-control-prev {
+        left: -40px;
+    }
+
+    #coments .img-coments {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    #coments strong {
+        font-size: 1.3rem;
+    }
+}

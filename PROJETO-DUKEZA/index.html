@@ -2,203 +2,218 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- Css -->
-  <link rel="stylesheet" href="./style/style.css" />
-  <!-- BootStrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-  <!-- Font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <header id="header">
-    <div class="container-fluid">
-      <!-- navbar -->
-      <nav id='nav' class=" navbar navbar-expand-lg" data-bs-theme="dark">
-        <a class="navbar-brand" href="#" id="header-logo">Dukeza App</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="navigation nav-link active" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="navigation nav-link" href="#">Produto</a>
-            </li>
-            <li class="nav-item">
-              <a class=" navigation nav-link" href="#">Sobre</a>
-            </li>
-          </ul>
+    <header class='header-footer' id="header">
+        <div class="container-fluid">
+            <!-- navbar -->
+            <nav id='nav' class=" navbar navbar-expand-lg" data-bs-theme="dark">
+                <a class="navbar-brand" href="#" id="nav-logo">Dukeza App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="navigation nav-link active" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navigation nav-link" href="#">Produto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" navigation nav-link" href="#">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- content -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Conheça gatos novos e interessantes nas proximidades</h1>
+                    <button type="button" class="btn btn-lg btn-outline-light mb-3 btn-shadow">
+                        <i class="fa-brands fa-apple fa-lg"></i> Download
+                    </button>
+                    <button type="button" class="btn btn-lg btn-outline-light mb-3 btn-shadow ">
+                        <i class="fa-brands fa-google-play fa-lg"></i> Download
+                    </button>
+                </div>
+                <figure class="col-lg-6">
+                    <img class="header-img" src="./img/Gatinho.png" alt="" />
+                </figure>
+            </div>
         </div>
-      </nav>
-      <!-- content -->
-      <div class="row">
-        <div class="col-lg-6">
-          <h1>Conheça gatos novos e interessantes nas proximidades</h1>
-          <button type="button" class="btn btn-lg btn-outline-light mb-3">
-            <i class="fa-brands fa-apple fa-lg"></i> Download
-          </button>
-          <button type="button" class="btn btn-lg btn-outline-light mb-3">
-            <i class="fa-brands fa-google-play fa-lg"></i> Download
-          </button>
+    </header>
+
+    <section class="white-section" id="features">
+        <div class="row-padding row">
+            <div class="gap-box col-lg-4">
+                <i class="icon fa-solid fa-heart fa-5x"></i>
+                <h1>Gatos amam</h1>
+                <p>Encontre um gatinho ideal para você</p>
+            </div>
+            <div class="gap-box col-lg-4">
+                <i class="icon fa-solid fa-cat fa-5x"></i>
+                <h1>Os melhores gatos</h1>
+                <p>Temos os melhores gatinhos para sua companhia</p>
+            </div>
+            <div class="gap-box col-lg-4">
+                <i class="icon fa-sharp fa-solid fa-circle-check fa-5x"></i>
+                <h1>Simples de usar</h1>
+                <p>Tão fácil de usar que até seu futuro gatinho poderia fazer</p>
+            </div>
         </div>
-        <figure class="col-lg-6">
-          <img class="header-img" src="./img/Gatinho.png" alt="" />
-        </figure>
-      </div>
-    </div>
-  </header>
+    </section>
 
-  <section id="features">
-    <div class="row-padding row">
-      <div class="features-box col-lg-4">
-        <i class="icon fa-solid fa-heart fa-5x"></i>
-        <h1>Gatos amam</h1>
-        <p>Encontre um gatinho ideal para você</p>
-      </div>
-      <div class="features-box col-lg-4">
-        <i class="icon fa-solid fa-cat fa-5x"></i>
-        <h1>Os melhores gatos</h1>
-        <p>Temos os melhores gatinhos para sua companhia</p>
-      </div>
-      <div class="features-box col-lg-4">
-        <i class="icon fa-sharp fa-solid fa-circle-check fa-5x"></i>
-        <h1>Simples de usar</h1>
-        <p>Tão fácil de usar que até seu futuro gatinho poderia fazer</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="coments">
-    <!-- first carousel -->
-    <div id="carousel-coments" class="carousel slide carousel-fade">
-      <div class="carousel-inner">
-        <div class="carousel-item active text-center ">
-          <img src="./img/Alisson.png" class="img-coments d-inline-block" alt="...">
-          <h1><strong>"Necessitava de um companheiro e o aplicativo me ajudou rapidamente para encontrar meu lindo
-              gatinho"</strong></h1>
-          <em>Brasil, Rio de Janeiro/RJ</em>
+    <section class="colored-section" id="coments">
+        <!-- first carousel -->
+        <div id="carousel-coments" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center ">
+                    <img src="./img/Alisson.png" class="img-coments d-inline-block" alt="...">
+                    <h1>"Necessitava de um companheiro e o aplicativo me ajudou rapidamente para encontrar meu
+                        lindo
+                        gatinho"</h1>
+                    <em>Brasil, Rio de Janeiro/RJ</em>
+                </div>
+                <div class="carousel-item text-center">
+                    <img class="img-coments d-inline-block" src="./img/Gato-preto.png" alt="Model">
+                    <h1>"Amo gatos e encontrei um lindo gatinho precisando de ajuda"</h1>
+                    <em>Brasil, Minas Gerais/MG</em>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coments" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-coments" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-item text-center">
-          <img class="img-coments d-inline-block" src="./img/Gato-preto.png" alt="Model">
-          <h1><strong>"Amo gatos e encontrei um lindo gatinho precisando de ajuda"</strong></h1>
-          <em>Brasil, Minas Gerais/MG</em>
+        <!-- end carousel -->
+
+    </section>
+
+    <section class="white-section" id="price">
+        <!-- cards -->
+        <div class="row">
+
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-tittle">Cats Free</h3>
+                    </div>
+                    <div class="card-body d-grid">
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h3 class="card-tittle">GRÁTIS</h3>
+                            <li>Gatos Adotivos</li>
+                            <li>Vacinas</li>
+                            <li>Um pacote de brinquedos</li>
+                        </ul>
+
+                        <button type="button" class="btn btn-lg btn-success">Escolher</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-tittle">Cats Pleno</h3>
+                    </div>
+                    <div class="card-body d-grid">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h3 class="card-tittle">$150/Mês</h3>
+                            <li>Gatinhos de Raças</li>
+                            <li>Gatos comprados</li>
+                            <li>brinquedos + vacinas</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-success">Escolher</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pricing-column col-lg-4 col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-tittle">Cats Sup</h3>
+                    </div>
+                    <div class="card-body d-grid">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <h2 class='card-tittle'>$350/Mês</h2>
+                            <li>Gatos comprados</li>
+                            <li>Altamente resistentes</li>
+                            <li>15 Saches + 2 Rações</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-success">Escolher</button>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coments" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carousel-coments" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- end carousel -->
+        <!-- end of the cards -->
 
-  </section>
+    </section>
 
-  <section id="price">
-    <!-- cards -->
-    <div class="row">
-
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Cats Free</h3>
-          </div>
-          <div class="card-body d-grid">
-
-            <ul class="list-unstyled mt-3 mb-4">
-              <h3>GRÁTIS</h3>
-              <li>Gatos Adotivos</li>
-              <li>Necessitam de cuidados e acompanhamentos</li>
-              <li>Um pacote de brinquedos e vacinas + 2 Saches ao mês</li>
-            </ul>
-
-            <button type="button" class="btn btn-lg btn-success">Escolher</button>
-          </div>
+    <section class="colored-section" id="cta">
+        <div class="container-fluid">
+            <h1>Faça agora o donwload e se junte a maior comunidade de Gatinhos do Brasil</h1>
+            <button type="button" class="btn btn-lg btn-outline-light mb-3 btn-shadow">
+                <i class="fa-brands fa-apple fa-lg"></i> Download
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-light mb-3 btn-shadow">
+                <i class="fa-brands fa-google-play fa-lg"></i> Download
+            </button>
         </div>
-      </div>
+    </section>
 
+    <footer class='header-footer' id="footer">
 
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Cats Pleno</h3>
-          </div>
-          <div class="card-body d-grid">
-            <ul class="list-unstyled mt-3 mb-4">
-              <h3>$150/Mês</h3>
-              <li>Gatinhos de Raças</li>
-              <li>Gatos com Cuidado mais sofisticados</li>
-              <li>Um pacote de brinquedos e vacinas + 2 Saches ao mês</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-success">Escolher</button>
-          </div>
+        <div class="container-footer container">
+
+            <div class="footer-links">
+                <a href="" class="social-links">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+                <a href="" class="social-links">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+                <a href="" class="social-links">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+                <a href="" class="social-links">
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                </a>
+            </div>
+
+            <p>&copy;Todos os direitos Reservados - Dukeza App</p>
         </div>
-      </div>
 
+    </footer>
 
-      <div class="pricing-column col-lg-4 col-md-12">
-        <div class="card">
-          <div class="card-header">
-            <h3>Cats Sup</h3>
-          </div>
-          <div class="card-body d-grid">
-            <ul class="list-unstyled mt-3 mb-4">
-              <h2 class='card-title'>$350/Mês</h2>
-              <li>Gatinhos Geneticamente Selecionados</li>
-              <li>Altamente resistentes a doenças</li>
-              <li>15 Saches + 2 Rações</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-success">Escolher</button>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-    <!-- end of the cards -->
-
-  </section>
-
-  <footer id="footer">
-
-    <div class="container-footer container">
-
-      <div class="footer-links">
-        <a href="" class="social-links">
-          <i class="fa-brands fa-instagram fa-2x"></i>
-        </a>
-        <a href="" class="social-links">
-          <i class="fa-brands fa-facebook fa-2x"></i>
-        </a>
-        <a href="" class="social-links">
-          <i class="fa-brands fa-github fa-2x"></i>
-        </a>
-        <a href="" class="social-links">
-          <i class="fa-brands fa-twitter fa-2x"></i>
-        </a>
-      </div>
-
-      <p>&copy;Todos os direitos Reservados - Dukeza App</p>
-    </div>
-
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
