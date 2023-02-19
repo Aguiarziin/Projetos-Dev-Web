@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+/* font-family: 'Architects Daughter', cursive;
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+body {
+    background: linear-gradient(45deg, #BFACE2, #645CBB);
+}
+
+h1,
+button {
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-grid {
+    display: grid;
+    width: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4.375rem 1fr 5rem 4.375rem;
+    grid-template-areas:
+        'winner winner'
+        'dice1 dice2'
+        'btn btn'
+        'footer footer'
+    ;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.9375rem;
+}
+
+.header {
+    grid-area: winner;
+}
+
+#dice1 {
+    grid-area: dice1
+}
+
+#dice2 {
+    grid-area: dice2;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    grid-area: btn;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.btn-to-play {
+    width: 6.5rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+img {
+    background-color: black;
+    height: 18.75rem;
+    width: 18.75rem;
+    border-radius: 35px
+}
+
+@media (max-width: 650px) {
+    img {
+
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .container-grid {
+        grid-template-rows: 4.375rem 1fr 1fr 5rem 4.375rem;
+        grid-template-areas:
+            'winner winner'
+            'dice1 dice1'
+            'dice2 dice2'
+            'btn btn'
+            'footer footer'
+        ;
+    }
+}
