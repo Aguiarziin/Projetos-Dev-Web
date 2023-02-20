@@ -90,8 +90,18 @@ img {
 @media (max-width: 650px) {
     img {
 
-        height: 15rem;
-        width: 15rem;
+        height: 10rem;
+        width: 10rem;
+    }
+
+    button {
+        font-size: 1.3rem;
+    }
+
+    .btn-to-play {
+        width: 5rem;
+        height: 3rem;
+        cursor: pointer;
     }
 
     .container-grid {
