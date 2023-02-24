@@ -8,10 +8,14 @@ function generateColors() {
 
     for (let i = 0; i < 6; i++) {
         //charAt retorna um string do indice passado dessa string
-        color += chars.charAt(Math.floor(Math.random() * (chars.length + 1)))
+        color += chars.charAt(getRandomIntergerNumber)
         // é passado uma funcao de numeros aleatorios para o CharAt selecionar uma string sempre com cor diferente
     }
     return color
+}
+function getRandomIntergerNumber() {
+    const randomNumber = Math.floor(Math.random() * (chars.length + 1))
+    return randomNumber
 }
 
 btnGenerate.addEventListener('click', () => {
