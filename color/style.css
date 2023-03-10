@@ -12,6 +12,8 @@ main {
     height: 18.75rem;
 }
 
+.container-colors {}
+
 .footer {
     min-height: 10vh;
     text-align: center;
